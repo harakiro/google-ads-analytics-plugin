@@ -1,6 +1,7 @@
 # Credentials and secrets
 *.json
 !.claude-plugin/plugin.json
+!.claude-plugin/marketplace.json
 !.mcp.json
 .env
 .env.local
