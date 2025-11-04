@@ -124,9 +124,24 @@ Diagnostic analysis of all active campaigns with health scoring.
 
 ### Quick Install
 
+**Method 1: Via Marketplace (Recommended)**
+
 ```bash
-# In Claude Code
-/plugin install https://github.com/harakiro/google-ads-analytics-plugin
+# Add marketplace
+/plugin marketplace add harakiro/google-ads-analytics-plugin
+
+# Browse and install
+/plugin
+```
+
+**Method 2: Local Installation**
+
+```bash
+# Clone repository
+git clone https://github.com/harakiro/google-ads-analytics-plugin.git
+
+# Install from local directory
+/plugin install /path/to/google-ads-analytics-plugin
 ```
 
 ### Detailed Setup

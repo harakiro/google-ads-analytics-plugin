@@ -42,18 +42,35 @@ Ask questions in plain English:
 
 ### Installation
 
-1. **Install the plugin:**
+1. **Add the marketplace:**
 
 ```bash
 # In Claude Code
-/plugin install https://github.com/harakiro/google-ads-analytics-plugin
+/plugin marketplace add harakiro/google-ads-analytics-plugin
 ```
 
-2. **Follow the setup guide:**
+2. **Install the plugin:**
+
+```bash
+# Browse and install from the plugin menu
+/plugin
+```
+
+Or clone locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/harakiro/google-ads-analytics-plugin.git
+
+# Install from local directory
+/plugin install /path/to/google-ads-analytics-plugin
+```
+
+3. **Follow the setup guide:**
 
 See [docs/setup-guide.md](docs/setup-guide.md) for complete configuration instructions.
 
-3. **Start using:**
+4. **Start using:**
 
 ```bash
 # Ask questions

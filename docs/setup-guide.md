@@ -253,22 +253,30 @@ source ~/.bashrc  # or ~/.zshrc
 
 ## Plugin Installation
 
-### Method 1: From Local Directory
+### Method 1: Via Marketplace (Recommended)
 
-If you cloned or downloaded the plugin:
+Add the plugin marketplace and install:
 
 ```bash
-# In Claude Code
-/plugin install /path/to/google-ads-analytics-monitor
+# In Claude Code - Add marketplace
+/plugin marketplace add harakiro/google-ads-analytics-plugin
+
+# Browse and install the plugin
+/plugin
 ```
 
-### Method 2: From Git Repository
+Select "google-ads-analytics-plugin" from the list and install.
 
-If the plugin is hosted in a Git repository:
+### Method 2: Local Installation
+
+Clone and install from local directory:
 
 ```bash
-# In Claude Code
-/plugin install https://github.com/harakiro/google-ads-analytics-plugin
+# Clone the repository
+git clone https://github.com/harakiro/google-ads-analytics-plugin.git
+
+# In Claude Code - Install from local directory
+/plugin install /path/to/google-ads-analytics-plugin
 ```
 
 ### Method 3: Project Auto-Install
