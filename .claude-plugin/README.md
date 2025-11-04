@@ -126,7 +126,7 @@ Diagnostic analysis of all active campaigns with health scoring.
 
 ```bash
 # In Claude Code
-/plugin install google-ads-analytics-monitor
+/plugin install https://github.com/harakiro/google-ads-analytics-plugin
 ```
 
 ### Detailed Setup

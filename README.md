@@ -46,7 +46,7 @@ Ask questions in plain English:
 
 ```bash
 # In Claude Code
-/plugin install https://github.com/yourusername/google-ads-analytics-monitor
+/plugin install https://github.com/harakiro/google-ads-analytics-plugin
 ```
 
 2. **Follow the setup guide:**
@@ -227,8 +227,8 @@ Built with:
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/google-ads-analytics-monitor/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/google-ads-analytics-monitor/discussions)
+- **Issues**: [GitHub Issues](https://github.com/harakiro/google-ads-analytics-plugin/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/harakiro/google-ads-analytics-plugin/discussions)
 - **Documentation**: [Setup Guide](docs/setup-guide.md) | [Plugin README](.claude-plugin/README.md)
 
 ## 🗺️ Roadmap

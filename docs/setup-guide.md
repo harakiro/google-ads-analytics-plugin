@@ -268,7 +268,7 @@ If the plugin is hosted in a Git repository:
 
 ```bash
 # In Claude Code
-/plugin install https://github.com/your-org/google-ads-analytics-monitor
+/plugin install https://github.com/harakiro/google-ads-analytics-plugin
 ```
 
 ### Method 3: Project Auto-Install
@@ -277,7 +277,7 @@ Add to your project's `.claude/settings.json`:
 
 ```json
 {
-  "plugins": ["google-ads-analytics-monitor"]
+  "plugins": ["google-ads-analytics-plugin"]
 }
 ```
 

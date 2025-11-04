@@ -1,5 +1,5 @@
 {
-  "name": "google-ads-analytics-monitor",
+  "name": "google-ads-analytics-plugin",
   "version": "1.0.0",
   "description": "Monitor, analyze, and optimize Google Ads campaigns and website analytics performance. Provides specialized agents for campaign management, analytics reporting, and cross-platform insights.",
   "author": {
