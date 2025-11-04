@@ -1,0 +1,42 @@
+{
+  "name": "google-ads-analytics-monitor",
+  "version": "1.0.0",
+  "description": "Monitor, analyze, and optimize Google Ads campaigns and website analytics performance. Provides specialized agents for campaign management, analytics reporting, and cross-platform insights.",
+  "author": {
+    "name": "Google Ads Analytics Team"
+  },
+  "commands": [
+    "./commands/weekly-report.md",
+    "./commands/campaign-health-check.md"
+  ],
+  "mcpServers": {
+    "google-ads": {
+      "type": "stdio",
+      "command": "pipx",
+      "args": [
+        "run",
+        "--spec",
+        "git+https://github.com/googleads/google-ads-mcp.git",
+        "google-ads-mcp"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS:-${HOME}/.google/ads-analytics-credentials.json}",
+        "GOOGLE_PROJECT_ID": "${GOOGLE_PROJECT_ID}",
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "${GOOGLE_ADS_DEVELOPER_TOKEN}",
+        "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "${GOOGLE_ADS_LOGIN_CUSTOMER_ID}"
+      }
+    },
+    "google-analytics": {
+      "type": "stdio",
+      "command": "pipx",
+      "args": [
+        "run",
+        "analytics-mcp"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "${GOOGLE_APPLICATION_CREDENTIALS:-${HOME}/.google/ads-analytics-credentials.json}",
+        "GOOGLE_PROJECT_ID": "${GOOGLE_PROJECT_ID}"
+      }
+    }
+  }
+}
